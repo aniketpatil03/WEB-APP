@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today I learned</title>
+  </head>
+  <body>
+    <header>
+      <!-- Header Section image -->
+      <img
+        src="/starter-files/logo.png"
+        height="68px"
+        width="68px"
+        alt="Today I learned Logo"
+      />
+      <h1>Today I learned</h1>
+    </header>
+
+    <!-- Adding a Form -->
+    <form>
+      <!-- Addded two input fields with placeholder -->
+      <input type="text" placeholder="Share a fact with the world!" />
+      <!-- to display no of characters left to write -->
+      <span>200</span>
+      <input type="text" placeholder="Trust-worthy Source" />
+
+      <!-- Adding a Dropdown Button -->
+      <select>
+        <!--Value="" cauz we don't want user to select this option but just show -->
+        <option value="">Choose Category</option>
+        <option value="technology">Technology</option>
+        <option value="science">Science</option>
+        <option value="finance">Finance</option>
+      </select>
+      <!-- Adding a post button -->
+      <button>POST</button>
+    </form>
+
+    <main>
+      <!-- Aside is used for sidebar -->
+      <aside>
+        <!-- All the Buttons are in a list -->
+        <ul>
+          <li>
+            <button>ALL</button>
+          </li>
+          <li>
+            <button>Technology</button>
+          </li>
+          <li>
+            <button>Science</button>
+          </li>
+        </ul>
+      </aside>
+
+      <section>
+        <h1>Today I learned!!</h1>
+
+        <ul>
+          <li>
+            <p>
+              React is being developed by Meta (formerly facebook)
+              <a href="https://opensource.fb.com/">(Source)</a>
+              <!-- Span Element adds diffrent contemt without creating a new line-->
+              <span>##Technology##</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              Millennial dads spend 3 times as much time with their kids than
+              their fathers spent with them. In 1982, 43% of fathers had never
+              changed a diaper. Today, that number is down to 3%
+              <a
+                href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
+                >(Source)</a
+              >
+              <!-- Span Element adds diffrent contemt without  
+                          creating a new line-->
+              <span>##Society##</span>
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
